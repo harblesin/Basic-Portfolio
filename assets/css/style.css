@@ -3,16 +3,27 @@ section{
 }
 
 nav{
-    color:grey;
+    color:#777777;
+    background-color:#ffffff;
+    padding:50px;
+    width:100%;
+}
+
+#topper{
+    background-color:#cccccc;
+    width:100%;
+    height:3px;
+    overflow:auto;
+    margin-bottom:50px;
 }
 
 header{
-    color:white;
-    background-color:teal;
-    height:40px;
-    width:25%;
-    float:left;
+    color:#ffffff;
+    background-color:#4aaaa5;
+    width:20%;
     text-align:center;
+    padding:30px;
+    font-size:20px;
 }
 
 body{
@@ -21,11 +32,49 @@ body{
 }
 
 section{
-    background-color:white;
+    background-color:#ffffff;
     width:960px;
+    height:600px;
     background-position:center;
+    color:#777777;
+    overflow:auto;
+    clear:both;
+    margin:50px auto;
+    font-size:25px;
+    padding:30px;
+    border-width:1px;
+    border-color:#cccccc;
+    border-style:solid;
+
+}
+#divider{
+    background-color:#cccccc;
+    width:100%;
+    height:3px;
+    margin:auto;
+}
+
+p{
+    color:#777777;
+    font-size:6vw;
+    font-size:6vh;
+}
+
+#profilepic{
+    float:left;
+    margin-right:30px;
 }
 
 h1{
-    color:teal;
+    color:#4aaaa5;
+}
+
+footer{
+    background-color:#666666;
+    height:50px;
+    color:#cccccc;
+    width:100%;
+    text-align:center;
+    clear:both;
+    border-top: 8px solid #4aaaa5;
 }
