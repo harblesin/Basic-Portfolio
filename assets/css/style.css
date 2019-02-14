@@ -15,7 +15,6 @@
     width:960px;
     height:100%;
     margin: auto;
-    display:block;
 }
 
 header{
@@ -26,8 +25,8 @@ header{
     padding:30px;
     font-size:30px;
     height:40px;
-    float:left;
     font-family: Georgia, Times, "Times New Roman", serif;
+    display:inline-block;
 }
 
 nav{
@@ -41,7 +40,6 @@ nav{
 a{
     text-decoration: none;
     color:#777777;
-    float:right;
     margin-top:40px;
     font-size:2vh;
     
@@ -50,19 +48,16 @@ a{
 #port{
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
-    text-align:right;
+    text-align:center;
     width:80px;
-    float:right;
-    margin-right: 50px;
-    margin-left: 30px;
-    height:30px;
+    height:20px;
     
 }
 
 
 body{
     background-image: url("../images/crossline-dots.png");
-    overflow:auto;
+    margin:0;
 }
 
 #content{
@@ -74,6 +69,7 @@ body{
     overflow:auto;
     clear:both;
     margin:150px auto;
+    margin-bottom:200px;
     font-size:25px;
     border-width:1px;
     border-color:#cccccc;
@@ -124,16 +120,33 @@ h1{
     padding:30px;
 }
 
+input[type=text], select {
+    width:100%;
+    padding: 12px 20px;
+
+}
+
+#submitButton{
+    padding:10px;
+    background-color:#4aaaa5;
+    margin:20px;
+    height:30px;
+    width:125px;
+    text-decoration: 0;
+    color:#ffffff;
+    text-align:center;
+
+}
+
 footer{
     background-color:#666666;
     height:50px;
     color:#cccccc;
     width:100%;
     text-align:center;
-    clear:both;
     border-top: 8px solid #4aaaa5;
-    position:absolute;
+    position:static;
+    clear:both;
     bottom:0;
     left:0;
-    overflow:auto;
 }
