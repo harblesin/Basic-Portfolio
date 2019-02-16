@@ -32,8 +32,10 @@ header{
 nav{
     color:#777777;
     background-color:#ffffff;  
-    margin-top:20px;
+    margin-top:40px;
     float:right;
+    width:500px;
+    height:40px;
 
 }
 
@@ -43,19 +45,24 @@ a{
     font-size:2vh;
     font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
     float:right;
+    padding-left:20px;
 }
 
-.navLink{
-    text-align:center;
-    width:20%;
-
+a:hover{
+    color:#be1a1a;
+    text-decoration:underline;
 }
+
 
 #port{
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
-    text-align:center;
-    
+    height:20px;
+    width:80px;
+    float:right;
+    padding-right:20px;
+    padding-left:10px;
+    margin-left:20px;
 }
 
 body{
@@ -192,6 +199,19 @@ input[type=text], textarea{
     color:#ffffff;
     text-align:center;
 
+}
+
+#submitButton:hover{
+    background-color:#183836;
+    color:#ffffff;
+    cursor:pointer;
+    
+}
+
+#submitButton:active{
+    background-color:#041312;
+    text-decoration: 0;
+    color:#ffffff;
 }
 
 footer{
