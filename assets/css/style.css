@@ -32,35 +32,30 @@ header{
 nav{
     color:#777777;
     background-color:#ffffff;  
+    margin-top:20px;
     float:right;
 
-    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin-top:40px;
-    width:350px;
 }
 
 a{
     text-decoration: none;
     color:#777777;
     font-size:2vh;
-    width:65px;
+    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
     float:right;
-    text-align:center;
-    
 }
 
 .navLink{
-    width:100px;
-    float:right;
     text-align:center;
+    width:20%;
+
 }
 
 #port{
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
-    width:100px;
-    height:20px;
-    float:right;
+    text-align:center;
+    
 }
 
 body{
@@ -190,7 +185,7 @@ input[type=text], textarea{
 #submitButton{
     padding:10px;
     background-color:#4aaaa5;
-    margin:20px;
+    margin:30px;
     height:30px;
     width:125px;
     text-decoration: 0;
