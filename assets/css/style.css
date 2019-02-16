@@ -31,29 +31,37 @@ header{
 
 nav{
     color:#777777;
-    background-color:#ffffff;
-    width:50%;
+    background-color:#ffffff;  
     float:right;
+
     font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top:40px;
+    width:350px;
 }
 
 a{
     text-decoration: none;
     color:#777777;
-    margin-top:40px;
     font-size:2vh;
+    width:65px;
+    float:right;
+    text-align:center;
     
+}
+
+.navLink{
+    width:100px;
+    float:right;
+    text-align:center;
 }
 
 #port{
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
-    text-align:center;
-    width:80px;
+    width:100px;
     height:20px;
-    
+    float:right;
 }
-
 
 body{
     background-image: url("../images/crossline-dots.png");
@@ -64,7 +72,6 @@ body{
 #content{
     background-color:#ffffff;
     width:960px;
-    height:relative;
     background-position:center;
     color:#777777;
     overflow:auto;
@@ -93,7 +100,7 @@ p{
     font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height:40px;
     margin-left:20px;
-    margin-bottom:0px;
+    margin-bottom:20px;
 }
 
 #profilepic{
@@ -113,38 +120,71 @@ h1{
 }
 
 #portImages{
-    float:left;
+    padding:30px;
+    width:700px;
+
 }
 
 .banner{
-    display:inline-block;
+    display:block;
     float:left;
-    padding:30px;
+    width:300px;
+    position: relative;
+    margin-right: 50px ;
+    margin-bottom:60px;
+    margin-top:10px;
+
 }
 
-input[type=text], select, textarea{
+.textBlock{
+    display:inline-block;
+    float:left;
+    width:100%;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align:center;
+    position: absolute;
+    height:50px;
+    padding-top:20px;
+    bottom:15px;
+
+}
+
+input[type=text], select{
     width:100%;
     resize:vertical;
+    padding:10px;
+    margin-top:10px;
     
 }
 
+input[type=text], textarea{
+    width:100%;
+    resize:vertical;
+    padding:10px;
+    margin-top:10px;
+    display:inline-block;
+    box-sizing:border-box;
+
+
+    
+}
 #nameBox{
     padding-top:10px;
 }
 
 .form{
-    margin-top:20px;
+  
+    margin-top:10px;
     margin-left:30px;
-    width:900px;
+    width:902.4px;
     margin-bottom:10px;
-
 }
 
 #messageBox{
     margin-top:20px;
     margin-left:30px;
     width:900px;
-    word-wrap: break-word;
 }
 
 #submitButton{
